@@ -1,0 +1,22 @@
+C:\Users\desuryaw>set JAVA_HOME=C:\Program Files\Java\jdk1.8.0_121
+
+C:\Users\desuryaw>set M2_HOME=C:\Users\desuryaw\Desktop\Module3\apache-maven-3.3.9
+
+C:\Users\desuryaw>set PATH=%PATH%;%JAVA_HOME%\bin;%M2_HOME%\bin;
+
+C:\Users\desuryaw>echo %PATH%
+
+C:\Users\desuryaw>javac
+
+C:\Users\desuryaw>mvn
+
+C:\Users\desuryaw>mvn -v
+
+C:\Users\desuryaw>mvn archetype:generate -DgroupId=com.cg -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+C:\Users\desuryaw>cd my-app
+
+C:\Users\desuryaw\my-app>mvn test
+
+C:\Users\desuryaw\my-app>mvn exec:java -Dexec.mainClass=com.cg.App
+
